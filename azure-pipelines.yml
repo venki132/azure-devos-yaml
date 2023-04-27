@@ -8,6 +8,8 @@ trigger:
 
 pool:
   vmImage: ubuntu-latest
+  demands: ansible
+
 
 steps:
 - script: echo Hello, world!
